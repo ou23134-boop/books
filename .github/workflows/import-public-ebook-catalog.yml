@@ -1,0 +1,76 @@
+name: Import public ebook resource catalog
+on:
+  push:
+    branches: [public-ebooks-20261101]
+    paths: ['.github/workflows/import-public-ebook-catalog.yml']
+permissions:
+  contents: write
+jobs:
+  import-catalog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github/workflows
+      - name: Copy and verify catalog without running its code
+        shell: python
+        run: |
+          import subprocess, tempfile, pathlib, shutil, hashlib, json
+          origin = "https://github.com/EbookFoundation/free-programming-books.git"
+          commit = "3bb4c53f0681d5a6d6adafdf3f2ee4eca054a23d"
+          root = pathlib.Path("公开免费电子书")
+          target = root / "Free-Programming-Books"
+          assert not target.exists(), "Destination already exists; refusing overwrite"
+          with tempfile.TemporaryDirectory() as tmp:
+              src = pathlib.Path(tmp) / "source"
+              subprocess.run(["git", "init", str(src)], check=True)
+              subprocess.run(["git", "-C", str(src), "fetch", "--depth=1", origin, commit], check=True)
+              subprocess.run(["git", "-C", str(src), "checkout", "--detach", "FETCH_HEAD"], check=True)
+              actual = subprocess.check_output(["git", "-C", str(src), "rev-parse", "HEAD"], text=True).strip()
+              assert actual == commit
+              records = subprocess.check_output(["git", "-C", str(src), "ls-tree", "-rz", "HEAD"]).split(b"\0")
+              manifest = []
+              for record in records:
+                  if not record:
+                      continue
+                  meta, name = record.split(b"\t", 1)
+                  mode, kind, expected = meta.decode().split()
+                  assert kind == "blob" and mode in ("100644", "100755"), "Unsupported source entry"
+                  relative = pathlib.PurePosixPath(name.decode())
+                  assert not relative.is_absolute() and ".." not in relative.parts
+                  data = (src / relative).read_bytes()
+                  blob = hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest()
+                  assert blob == expected, str(relative)
+                  dest = target / relative
+                  dest.parent.mkdir(parents=True, exist_ok=True)
+                  dest.write_bytes(data)
+                  manifest.append({"path": str(relative), "bytes": len(data), "git_blob_sha": blob})
+          root.mkdir(parents=True, exist_ok=True)
+          (root / "导入校验.json").write_text(json.dumps({"source": origin, "source_commit": commit, "kind": "resource_catalog_not_all_book_fulltexts", "verified_files": len(manifest), "total_bytes": sum(x["bytes"] for x in manifest), "files": manifest}, ensure_ascii=False, indent=2), encoding="utf-8")
+          (root / "README.md").write_text("""# 公开免费电子书来源
+          
+          本分支保存可核验的公开书库资料，主分支保持原样。
+          
+          ## 已导入
+          
+          Free-Programming-Books：EbookFoundation/free-programming-books 的完整仓库文件快照；保留原始许可证及署名。它是免费书籍、课程等资源的链接目录，不等于链接指向的书籍全文已经下载。完整性见导入校验.json。
+          
+          ## 其余已找到的来源（全文尚未导入）
+          
+          - Standard Ebooks：https://standardebooks.org/ebooks ；源码入口：https://github.com/standardebooks 。英文经典；需要逐本核对版本与当地适用权限。
+          - 青空文库：https://www.aozora.gr.jp/ 。日文文学；版权到期与作者授权作品须区别处理。
+          - OpenStax：https://openstax.org/higher-education 。开放教材；按每本书所列许可保存署名及其他条件。
+          - 中国哲学书电子化计划：https://ctext.org/zh 。中文古籍在线阅读与检索；网页、数据库及整理内容不应直接等同于允许整站复制。
+          
+          免费阅读、下载与重新发布不是同一权限。此清单不代表其余四个来源全文已入库。
+          """, encoding="utf-8")
+          print(json.dumps({"verified_files": len(manifest), "total_bytes": sum(x["bytes"] for x in manifest), "source_commit": commit}))
+      - name: Commit catalog and remove temporary importer
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git -c filter.lfs.clean=cat -c filter.lfs.process= -c filter.lfs.required=false add --sparse -- "公开免费电子书"
+          git rm -- .github/workflows/import-public-ebook-catalog.yml
+          git commit -m "Import verified free ebook resource catalog and source guide"
+          git push origin HEAD:public-ebooks-20261101
