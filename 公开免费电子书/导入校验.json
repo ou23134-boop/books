@@ -1,0 +1,1184 @@
+{
+  "source": "https://github.com/EbookFoundation/free-programming-books.git",
+  "source_commit": "3bb4c53f0681d5a6d6adafdf3f2ee4eca054a23d",
+  "kind": "resource_catalog_not_all_book_fulltexts",
+  "verified_files": 235,
+  "total_bytes": 2357148,
+  "files": [
+    {
+      "path": ".editorconfig",
+      "bytes": 1101,
+      "git_blob_sha": "5f459aad2f7726bd231787abb9fc970582f34271"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "bytes": 1077,
+      "git_blob_sha": "1adbad38e1450d63de2dd9821565f38fc4db0e06"
+    },
+    {
+      "path": ".github/actions/awesomebot-gh-summary-action/action.yml",
+      "bytes": 3843,
+      "git_blob_sha": "afdb72ec55d1deb8263b53beb9d2b775dbc37df9"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "bytes": 1225,
+      "git_blob_sha": "d363dc97e20e19769b873e5f16d8a4d398ad0992"
+    },
+    {
+      "path": ".github/workflows/check-urls.yml",
+      "bytes": 4830,
+      "git_blob_sha": "44897724135ee4c272aa6a41fe84690670603f74"
+    },
+    {
+      "path": ".github/workflows/comment-pr.yml",
+      "bytes": 1685,
+      "git_blob_sha": "679b7cb26bed0877a6c0f9ea6bbce9660c9efdae"
+    },
+    {
+      "path": ".github/workflows/detect-conflicting-prs.yml",
+      "bytes": 2905,
+      "git_blob_sha": "dc5448bc7b69f04526be16767b95c327153a42d4"
+    },
+    {
+      "path": ".github/workflows/fpb-lint.yml",
+      "bytes": 797,
+      "git_blob_sha": "443067987819bed1fe0f9ecc6efb37e7cce0f2eb"
+    },
+    {
+      "path": ".github/workflows/issues-pinner.yml",
+      "bytes": 1991,
+      "git_blob_sha": "57f31584019afdc5d931960479cf1b4afc3fdbe9"
+    },
+    {
+      "path": ".github/workflows/rtl-ltr-linter.yml",
+      "bytes": 4060,
+      "git_blob_sha": "288c2685d9abf4226e63333987d4ddcd0158c9d2"
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "bytes": 1833,
+      "git_blob_sha": "2261c3ad400ca6de202f7fdc1309689679929228"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 4898,
+      "git_blob_sha": "1c19995a8e612ab3af4dce8ad6d8bd40fb584acb"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 18658,
+      "git_blob_sha": "10fabd90118f7ce38bb2e4753e105e744442a429"
+    },
+    {
+      "path": "README.md",
+      "bytes": 16002,
+      "git_blob_sha": "4381df60280381cac21503d7ad91ac0babf17936"
+    },
+    {
+      "path": "_config.yml",
+      "bytes": 349,
+      "git_blob_sha": "6a218ad6b62b92f38e00c15e3eccd0b8d5088d2c"
+    },
+    {
+      "path": "_includes/head-custom.html",
+      "bytes": 292,
+      "git_blob_sha": "f839d7a2dffeaba3ae6b698a51ced1208af93332"
+    },
+    {
+      "path": "books/free-programming-books-ar.md",
+      "bytes": 5428,
+      "git_blob_sha": "2357de9841d50484def5af913b59984b9bd2249d"
+    },
+    {
+      "path": "books/free-programming-books-az.md",
+      "bytes": 589,
+      "git_blob_sha": "bbfb16406295d5e5611c6abb2c3b07f073f32c0b"
+    },
+    {
+      "path": "books/free-programming-books-bg.md",
+      "bytes": 2509,
+      "git_blob_sha": "c17eaeec65862bb427b887d01153d8f7f8148ade"
+    },
+    {
+      "path": "books/free-programming-books-bn.md",
+      "bytes": 5181,
+      "git_blob_sha": "622d03d1edb0fe6d9bd1624f50361a30b4546791"
+    },
+    {
+      "path": "books/free-programming-books-ca.md",
+      "bytes": 771,
+      "git_blob_sha": "29ddb1303a5ec86d99fa796b8d6a5b56f53f0d59"
+    },
+    {
+      "path": "books/free-programming-books-cs-cp.md",
+      "bytes": 0,
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "books/free-programming-books-cs.md",
+      "bytes": 5075,
+      "git_blob_sha": "f22628dc04c6a7acdc16d70d54cdec0eccf9750c"
+    },
+    {
+      "path": "books/free-programming-books-da.md",
+      "bytes": 1048,
+      "git_blob_sha": "b300947eb6359a55238a53eb4d5d98131ad484b7"
+    },
+    {
+      "path": "books/free-programming-books-de.md",
+      "bytes": 12708,
+      "git_blob_sha": "1ec85bc2456db1ebdecb2799a36ed1233e543808"
+    },
+    {
+      "path": "books/free-programming-books-el.md",
+      "bytes": 5149,
+      "git_blob_sha": "5d9f0a87453937d57cf968ff114f8a6f45d7d3a6"
+    },
+    {
+      "path": "books/free-programming-books-en.md",
+      "bytes": 231,
+      "git_blob_sha": "aa0faf46963a85de7e36878b55ef409e9691b4e6"
+    },
+    {
+      "path": "books/free-programming-books-es.md",
+      "bytes": 28617,
+      "git_blob_sha": "abbd74ba1b861e36fc29d1a4f97fe4f4ccf165c8"
+    },
+    {
+      "path": "books/free-programming-books-et.md",
+      "bytes": 2353,
+      "git_blob_sha": "b14cd65ac972d58820534f932231952ba7fad445"
+    },
+    {
+      "path": "books/free-programming-books-fa_IR.md",
+      "bytes": 3674,
+      "git_blob_sha": "49f95c2f2050e240c2b0092508ea60c7582ccb27"
+    },
+    {
+      "path": "books/free-programming-books-fi.md",
+      "bytes": 3221,
+      "git_blob_sha": "be7912f196f994b414b81cce975d30b5f3573b49"
+    },
+    {
+      "path": "books/free-programming-books-fr.md",
+      "bytes": 16144,
+      "git_blob_sha": "c4066b369964d26e3c2c23281bce0ab2a7d2529e"
+    },
+    {
+      "path": "books/free-programming-books-he.md",
+      "bytes": 1771,
+      "git_blob_sha": "7b134fc995c04f6ce450b990a800f7270f64c2de"
+    },
+    {
+      "path": "books/free-programming-books-hi.md",
+      "bytes": 3492,
+      "git_blob_sha": "1162d639a45b0ff9184c48133ee57d5c148997ac"
+    },
+    {
+      "path": "books/free-programming-books-hu.md",
+      "bytes": 6479,
+      "git_blob_sha": "30bafc4773be1b61cbd1d88edc068182b66d524c"
+    },
+    {
+      "path": "books/free-programming-books-hy.md",
+      "bytes": 0,
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "books/free-programming-books-id.md",
+      "bytes": 13576,
+      "git_blob_sha": "294191f424e0443b36dd9b1e77eb1b6bce7542e6"
+    },
+    {
+      "path": "books/free-programming-books-it.md",
+      "bytes": 14058,
+      "git_blob_sha": "3919a2c43c001e85be3a86302ef1b4c5005fdf67"
+    },
+    {
+      "path": "books/free-programming-books-ja.md",
+      "bytes": 42699,
+      "git_blob_sha": "0f7160ae2708eb93329090bb1716914496bac98d"
+    },
+    {
+      "path": "books/free-programming-books-ko.md",
+      "bytes": 10034,
+      "git_blob_sha": "2ce98d5955d9acfd208eb202bd0be870deb31702"
+    },
+    {
+      "path": "books/free-programming-books-langs.md",
+      "bytes": 201250,
+      "git_blob_sha": "fbf5f218d3b33667792eacf7fc1805ad52197e8e"
+    },
+    {
+      "path": "books/free-programming-books-lv.md",
+      "bytes": 592,
+      "git_blob_sha": "bf3201df28aee6798c07b42d5ff68698052594f4"
+    },
+    {
+      "path": "books/free-programming-books-ml.md",
+      "bytes": 792,
+      "git_blob_sha": "a53d1a2954b8d1759106f9ddab4842eb0919e1d6"
+    },
+    {
+      "path": "books/free-programming-books-my.md",
+      "bytes": 2261,
+      "git_blob_sha": "f36c8943f1d65be0751eb85272cc28a97b2c80f6"
+    },
+    {
+      "path": "books/free-programming-books-nl.md",
+      "bytes": 1402,
+      "git_blob_sha": "d24004e8a82497e7c979d35cadaeeba83b19e903"
+    },
+    {
+      "path": "books/free-programming-books-no.md",
+      "bytes": 403,
+      "git_blob_sha": "121248337e56614bd1dfedb2e613a7a8c5313f8c"
+    },
+    {
+      "path": "books/free-programming-books-pl.md",
+      "bytes": 9055,
+      "git_blob_sha": "ddc72c3ae48fd92bebbc2190114400c157d6cfa7"
+    },
+    {
+      "path": "books/free-programming-books-pt_BR.md",
+      "bytes": 25844,
+      "git_blob_sha": "e8ebd407dc8bea56f75afdd5074abaf6692f8191"
+    },
+    {
+      "path": "books/free-programming-books-pt_PT.md",
+      "bytes": 1333,
+      "git_blob_sha": "a8d9991852039f24d279a0dc640f630ab4f713f1"
+    },
+    {
+      "path": "books/free-programming-books-ro.md",
+      "bytes": 1165,
+      "git_blob_sha": "30e193226a9e9aa69f08cffda4d857b08192004c"
+    },
+    {
+      "path": "books/free-programming-books-ru.md",
+      "bytes": 34857,
+      "git_blob_sha": "70482197a51f678f9fe4deac8e8df8a996020eac"
+    },
+    {
+      "path": "books/free-programming-books-sk.md",
+      "bytes": 898,
+      "git_blob_sha": "9a69d6b469edef0575000335ab57c63ce2c25a47"
+    },
+    {
+      "path": "books/free-programming-books-sl.md",
+      "bytes": 115,
+      "git_blob_sha": "9b726084e158c1af12153e5bdb3096c93ea169e4"
+    },
+    {
+      "path": "books/free-programming-books-sr.md",
+      "bytes": 2203,
+      "git_blob_sha": "e04fb4926590e2dda68f813da60ab0e07369c7eb"
+    },
+    {
+      "path": "books/free-programming-books-subjects.md",
+      "bytes": 110776,
+      "git_blob_sha": "1a69e8f2d570e689aa6879e0b6e3ff33e872f6cb"
+    },
+    {
+      "path": "books/free-programming-books-sv.md",
+      "bytes": 978,
+      "git_blob_sha": "d1d17229dd0eb7d7527ca7af5d7c18c3a92e3162"
+    },
+    {
+      "path": "books/free-programming-books-ta.md",
+      "bytes": 5086,
+      "git_blob_sha": "2215b3d6bb7722b3298f4d1fe36f30672c342c0a"
+    },
+    {
+      "path": "books/free-programming-books-te.md",
+      "bytes": 874,
+      "git_blob_sha": "6e71767559b5c3b7146ae62dec4eb20574236369"
+    },
+    {
+      "path": "books/free-programming-books-th.md",
+      "bytes": 3164,
+      "git_blob_sha": "cab481ab860b5dac83f95e56cf62372f69b4432a"
+    },
+    {
+      "path": "books/free-programming-books-tr.md",
+      "bytes": 8318,
+      "git_blob_sha": "12072afc84f4e7d7d539e6ec1ea5367cd75c825f"
+    },
+    {
+      "path": "books/free-programming-books-uk.md",
+      "bytes": 1959,
+      "git_blob_sha": "f0d0d5627676fa6778b7be54c26e31a82536c672"
+    },
+    {
+      "path": "books/free-programming-books-ur.md",
+      "bytes": 355,
+      "git_blob_sha": "e560ac7c0e999d4b9527fcbc7d0f9a2de3e7d990"
+    },
+    {
+      "path": "books/free-programming-books-uz.md",
+      "bytes": 224,
+      "git_blob_sha": "8fa0516f6ffaeb25eff7eb250f1cf29c243b6a4e"
+    },
+    {
+      "path": "books/free-programming-books-vi.md",
+      "bytes": 761,
+      "git_blob_sha": "b770dde3674ba86d4bd15c7b271b01cc7d4e3989"
+    },
+    {
+      "path": "books/free-programming-books-zh.md",
+      "bytes": 37932,
+      "git_blob_sha": "1bde3aeb940366a9dc9438defc8aafbcd2ddb99d"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-ar.md",
+      "bytes": 1345,
+      "git_blob_sha": "156d2a58172656da9cb27a0ab783215ed5ae30cc"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-cs.md",
+      "bytes": 347,
+      "git_blob_sha": "cb9cf35147caed1cd6b7d462ac5b80a93f8141a2"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-de.md",
+      "bytes": 124,
+      "git_blob_sha": "71ad389798425f266986bda9c506366c21d97b77"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-en.md",
+      "bytes": 31151,
+      "git_blob_sha": "b5983f62e6ccd53db0351a5b6a3f2c6829b474b6"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-es.md",
+      "bytes": 6682,
+      "git_blob_sha": "8bc8447597fff9929507f2aa55ed5beb2728f840"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-fa_IR.md",
+      "bytes": 994,
+      "git_blob_sha": "facb6920570814b714af8a7ee41780ad5253770a"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-fi.md",
+      "bytes": 674,
+      "git_blob_sha": "4de14a8a9b9ea60851b267edf0b6356becc59731"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-fr.md",
+      "bytes": 1033,
+      "git_blob_sha": "cf3e35ed44e03ec1de21355e5a8878202e50e7e4"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-he.md",
+      "bytes": 589,
+      "git_blob_sha": "4508314807424d89186a1850246e59b2f5ac64a9"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-id.md",
+      "bytes": 238,
+      "git_blob_sha": "f20eab3087da131eff5b0f4298c29c6ef41bcd4f"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-my.md",
+      "bytes": 190,
+      "git_blob_sha": "a71ed7233d5ea1ba44b382b5b6db4c9b8cdadffc"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-nl.md",
+      "bytes": 255,
+      "git_blob_sha": "f02a9cd79657b6cb208eefd71e10cc91a53864ef"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-pl.md",
+      "bytes": 1307,
+      "git_blob_sha": "20b739032a05ecce5921c1ff88ff5d3647ddc779"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-pt_BR.md",
+      "bytes": 6642,
+      "git_blob_sha": "f28ab63498cf753cc93835b6581e39b4eb53358b"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-pt_PT.md",
+      "bytes": 446,
+      "git_blob_sha": "acfa8052e24a1b3dcf59c6a860670d6598f3c1f9"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-ru.md",
+      "bytes": 4727,
+      "git_blob_sha": "44622d9c4f178f26188b873d40af587a549a6245"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-si.md",
+      "bytes": 231,
+      "git_blob_sha": "041ed54e0b47af6718745bf5042f4326c41e9c57"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-sv.md",
+      "bytes": 972,
+      "git_blob_sha": "f978db6dcdb14133219af2afbf79d36fca2d6859"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-tr.md",
+      "bytes": 514,
+      "git_blob_sha": "c2f55bd586f4a29c5bf4104a419b16cc173063e3"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-uk.md",
+      "bytes": 374,
+      "git_blob_sha": "54f031f64071ffc88ef90f2ebd64ff406b4e0a3e"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-zh.md",
+      "bytes": 485,
+      "git_blob_sha": "542f325d449cb4de572f769e275b55749787e372"
+    },
+    {
+      "path": "courses/free-courses-ar.md",
+      "bytes": 56297,
+      "git_blob_sha": "3c23c8ca8d6e8c1f002359dfae44d1a1da96e2bb"
+    },
+    {
+      "path": "courses/free-courses-bg.md",
+      "bytes": 208,
+      "git_blob_sha": "3e9d00000dca1920384854a5f689645cba1f65b0"
+    },
+    {
+      "path": "courses/free-courses-bn.md",
+      "bytes": 26159,
+      "git_blob_sha": "6ecec834c946a8f674a0af32654b63344ee1dd52"
+    },
+    {
+      "path": "courses/free-courses-de.md",
+      "bytes": 4011,
+      "git_blob_sha": "7771a6ea090bb5111a192be5dfcd3130a3a88f58"
+    },
+    {
+      "path": "courses/free-courses-el.md",
+      "bytes": 244,
+      "git_blob_sha": "5df1028e383829cecfebeb08d5f408ee53fe63c6"
+    },
+    {
+      "path": "courses/free-courses-en.md",
+      "bytes": 174210,
+      "git_blob_sha": "49caba44634b87d0a7266ed27fba1243711d62c8"
+    },
+    {
+      "path": "courses/free-courses-es.md",
+      "bytes": 24280,
+      "git_blob_sha": "29dcf824e37023d3304deb3272c9716d1cf5b2e7"
+    },
+    {
+      "path": "courses/free-courses-fa_IR.md",
+      "bytes": 9744,
+      "git_blob_sha": "12818e9a1d9e23b304086f42dd1e35ee932fd940"
+    },
+    {
+      "path": "courses/free-courses-fi.md",
+      "bytes": 875,
+      "git_blob_sha": "6de4eb9489a12ecba131da698d28848e04130a2d"
+    },
+    {
+      "path": "courses/free-courses-fr.md",
+      "bytes": 7584,
+      "git_blob_sha": "1f087114aabde1bb9e1862ba1c040961397c9cf4"
+    },
+    {
+      "path": "courses/free-courses-he.md",
+      "bytes": 1090,
+      "git_blob_sha": "c6480ac49d394e7421c8c93812e54eabf99d70a0"
+    },
+    {
+      "path": "courses/free-courses-hi.md",
+      "bytes": 71575,
+      "git_blob_sha": "fbed3d2044b204719640ef944fe82a19d70b624a"
+    },
+    {
+      "path": "courses/free-courses-id.md",
+      "bytes": 33194,
+      "git_blob_sha": "7510ce910ee182acb57d9701d75cf249527a2877"
+    },
+    {
+      "path": "courses/free-courses-it.md",
+      "bytes": 13772,
+      "git_blob_sha": "1fb4dce735c3e8d242d3c513f00761656c194180"
+    },
+    {
+      "path": "courses/free-courses-ja.md",
+      "bytes": 699,
+      "git_blob_sha": "51b0f3a2730ca4be5b46c217a8f94c885ace292d"
+    },
+    {
+      "path": "courses/free-courses-kk.md",
+      "bytes": 1236,
+      "git_blob_sha": "7a7498cb93bb5ff0fed39cf6bacf08312bbbae93"
+    },
+    {
+      "path": "courses/free-courses-km.md",
+      "bytes": 1846,
+      "git_blob_sha": "9885dcf7183d923676bd54fc2cbc63b446d32f69"
+    },
+    {
+      "path": "courses/free-courses-kn.md",
+      "bytes": 1551,
+      "git_blob_sha": "fbb7ad5fb75d3c230018512ac54b177b07708af5"
+    },
+    {
+      "path": "courses/free-courses-ko.md",
+      "bytes": 12945,
+      "git_blob_sha": "fdade524ce671a5bdf0db648ce9736394a4ff6e3"
+    },
+    {
+      "path": "courses/free-courses-ml.md",
+      "bytes": 12013,
+      "git_blob_sha": "b8b36fe93b50b0419d4266c2f5a8d7f518846b01"
+    },
+    {
+      "path": "courses/free-courses-mr.md",
+      "bytes": 3925,
+      "git_blob_sha": "737993d0347b200295a7d6caa68a252368511bfd"
+    },
+    {
+      "path": "courses/free-courses-my.md",
+      "bytes": 459,
+      "git_blob_sha": "cc29d78a1bc68894d1a5d02ebe298bfb63d5ea25"
+    },
+    {
+      "path": "courses/free-courses-ne.md",
+      "bytes": 2994,
+      "git_blob_sha": "4d7ac4c4e142aaf54497caac57627eaf7aebb926"
+    },
+    {
+      "path": "courses/free-courses-no.md",
+      "bytes": 145,
+      "git_blob_sha": "08fa3d162aa67f61f949df4238d480b51b054a6c"
+    },
+    {
+      "path": "courses/free-courses-pa.md",
+      "bytes": 223,
+      "git_blob_sha": "f94ae7d969be52d2565fce76821d444b3de82227"
+    },
+    {
+      "path": "courses/free-courses-pl.md",
+      "bytes": 6704,
+      "git_blob_sha": "a7ff50631405af0b522bc89ff3b0fcc076701fec"
+    },
+    {
+      "path": "courses/free-courses-pt_BR.md",
+      "bytes": 42807,
+      "git_blob_sha": "8e6c3cbfecacda36e9a805a13802e8f3b59e04ad"
+    },
+    {
+      "path": "courses/free-courses-pt_PT.md",
+      "bytes": 276,
+      "git_blob_sha": "fbbab78e81e95f1de952d96db06dc138560e5841"
+    },
+    {
+      "path": "courses/free-courses-ro.md",
+      "bytes": 962,
+      "git_blob_sha": "ece2011a9dcaaa524b591012b82f8d7d02002362"
+    },
+    {
+      "path": "courses/free-courses-ru.md",
+      "bytes": 10710,
+      "git_blob_sha": "a8190a8cfee0f711a2c80baf118bd86e3ea7afd7"
+    },
+    {
+      "path": "courses/free-courses-si.md",
+      "bytes": 4356,
+      "git_blob_sha": "446364bfc8eb17e342622ad59f8afccdeea0b20a"
+    },
+    {
+      "path": "courses/free-courses-sv.md",
+      "bytes": 114,
+      "git_blob_sha": "5cf79b487368afac53051bf74016a27a0ab65a93"
+    },
+    {
+      "path": "courses/free-courses-ta.md",
+      "bytes": 16013,
+      "git_blob_sha": "86bb9bcc66177772f08d279215ab275ba4454db9"
+    },
+    {
+      "path": "courses/free-courses-te.md",
+      "bytes": 14089,
+      "git_blob_sha": "10da2616b00d206afd006100c8b6ac6306687f35"
+    },
+    {
+      "path": "courses/free-courses-th.md",
+      "bytes": 4925,
+      "git_blob_sha": "1b908760ca9240fac071d080cd47f00a743381a8"
+    },
+    {
+      "path": "courses/free-courses-tr.md",
+      "bytes": 6175,
+      "git_blob_sha": "9f810c3ff3540ac9d5b4b6041002ac3d57cbc6e3"
+    },
+    {
+      "path": "courses/free-courses-uk.md",
+      "bytes": 1947,
+      "git_blob_sha": "ad27549d240359a13f6f5432542d36dd7522c2d0"
+    },
+    {
+      "path": "courses/free-courses-ur.md",
+      "bytes": 4141,
+      "git_blob_sha": "c8e6bf966ea306e455cc178f19efb2be4e08ea20"
+    },
+    {
+      "path": "courses/free-courses-vi.md",
+      "bytes": 55749,
+      "git_blob_sha": "bb03271687f7db89a7a320dd3eb36bb4b9fe354a"
+    },
+    {
+      "path": "courses/free-courses-zh.md",
+      "bytes": 1360,
+      "git_blob_sha": "631aa2dfcceaaaaa4933bf3ca871d4e330e0ee19"
+    },
+    {
+      "path": "courses/free-courses-zh_TW.md",
+      "bytes": 454,
+      "git_blob_sha": "14a7d03012705dd5bf6c4a4d76f092b2b2516b2c"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-bn.md",
+      "bytes": 5226,
+      "git_blob_sha": "0a63fdf93aafa97e15681d589c99a899a39f771b"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-bs.md",
+      "bytes": 2386,
+      "git_blob_sha": "9cc446858df556dbf57a732ccd56617070dff54e"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-de.md",
+      "bytes": 2900,
+      "git_blob_sha": "8da69b36c69cfbe6a066ee8f2f1ebbf142b7c753"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-el.md",
+      "bytes": 4548,
+      "git_blob_sha": "4fb500eb302e607f4d88c6112839667845d30a05"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-es.md",
+      "bytes": 2742,
+      "git_blob_sha": "48461bf2a76a0089d643f2e4138378f44dbe6d60"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-fa_IR.md",
+      "bytes": 3713,
+      "git_blob_sha": "b65556a6cabebe0b1fbdbfd0d5902f38948a7c03"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-fil.md",
+      "bytes": 2799,
+      "git_blob_sha": "aef2813ac1e3bb8957f78d4dc3732a4595db2952"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-fr.md",
+      "bytes": 2841,
+      "git_blob_sha": "7d1b38b37509fe8941a26dc7a9448b2fde6c9ba2"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-hi.md",
+      "bytes": 5543,
+      "git_blob_sha": "21e8e05d23c33c46962f5e1fd5b1d171ddd6d2bf"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-id.md",
+      "bytes": 2339,
+      "git_blob_sha": "0e118a700adb9627471d2a059ffa60005cb388d6"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-it.md",
+      "bytes": 2624,
+      "git_blob_sha": "cc12200664bf2196537d6eb00215c0678ec94753"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-ja.md",
+      "bytes": 3456,
+      "git_blob_sha": "1054cca4dfd81a3bfbc6030c361e5f7c703bf869"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-km.md",
+      "bytes": 5708,
+      "git_blob_sha": "4f5376f6596fef1d6a686204573cec045097b1be"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-kn.md",
+      "bytes": 6187,
+      "git_blob_sha": "7dbf79575ae6718901eebb8def7907e9c2a54315"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-ko.md",
+      "bytes": 2604,
+      "git_blob_sha": "6e87e4d3469cb9d579518d86bcb27705e4425101"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-ml.md",
+      "bytes": 5170,
+      "git_blob_sha": "44962fd5fd9522ade9f52d4d0ac390caab90290f"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-mr.md",
+      "bytes": 5761,
+      "git_blob_sha": "e663a00252f3975b3bd8191fb026b3d8859ffe3d"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-no.md",
+      "bytes": 2547,
+      "git_blob_sha": "247aecfd2abe447e71579cb1459c58d92886e8b4"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-np.md",
+      "bytes": 5480,
+      "git_blob_sha": "5b5564b71d5d3ef3146e51bbbdb9e6f4bfee074b"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-pl.md",
+      "bytes": 2698,
+      "git_blob_sha": "c6c7dd3e157c0fc37ea382f74740cfe2086068d5"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-pt_BR.md",
+      "bytes": 2577,
+      "git_blob_sha": "b4fa421b54b217d16cef606feb1681870b343102"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-ru.md",
+      "bytes": 4344,
+      "git_blob_sha": "c8cbc8bb8d94b9b3eda79f08ad2efb11dbf60d1e"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-si.md",
+      "bytes": 5836,
+      "git_blob_sha": "5992e6d4a24af08751e0620b220cbfa31ac4c74f"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-sl.md",
+      "bytes": 2372,
+      "git_blob_sha": "bbea4098be44d191f0d976221ced3f32fac0588c"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-sv.md",
+      "bytes": 2529,
+      "git_blob_sha": "43f0d6274c4bf0cd99ad6654fd0b0b8b31754359"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-ta.md",
+      "bytes": 7101,
+      "git_blob_sha": "98a49dbf9eecea35d1e2c62ef8f478863b70e2d9"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-te.md",
+      "bytes": 6387,
+      "git_blob_sha": "bf08cf357cabc95fac0e6cfc7b9978c42cd5c61e"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-th.md",
+      "bytes": 5596,
+      "git_blob_sha": "23be2ba69e7ff9f5c6908abad9dee1ae126562ab"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-tr.md",
+      "bytes": 2449,
+      "git_blob_sha": "39e46692f7dae7a8d6468f164bca20ba645728cb"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-uk.md",
+      "bytes": 3928,
+      "git_blob_sha": "600d70d11383859d9cd5ed55a49614d05c71f0ee"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-vi.md",
+      "bytes": 3193,
+      "git_blob_sha": "10da9756f1c26633ad03cb54ad0866f21990cd02"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-zh.md",
+      "bytes": 1895,
+      "git_blob_sha": "0e09e753a5b0152475b8b63902daa5284490f62b"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT.md",
+      "bytes": 2372,
+      "git_blob_sha": "de58f83c5bee9f3f3642c8006d93dff51482b0c7"
+    },
+    {
+      "path": "docs/CONTRIBUTING-ca.md",
+      "bytes": 18815,
+      "git_blob_sha": "f735e7e43afa0d76f4ba4cd367115565e5ffc01c"
+    },
+    {
+      "path": "docs/CONTRIBUTING-de.md",
+      "bytes": 17350,
+      "git_blob_sha": "a3fdcc4cf6d9d40afb9d531bb5ba8c01af3480bf"
+    },
+    {
+      "path": "docs/CONTRIBUTING-el.md",
+      "bytes": 26474,
+      "git_blob_sha": "373b4b76dfa2b92f69c31ac817bd9b90b8447da7"
+    },
+    {
+      "path": "docs/CONTRIBUTING-es.md",
+      "bytes": 19981,
+      "git_blob_sha": "5fac8ff248bc188d3d0726cea51195cd17c38334"
+    },
+    {
+      "path": "docs/CONTRIBUTING-fa_IR.md",
+      "bytes": 19327,
+      "git_blob_sha": "60778be0f3e1df49f7679d9c3a7bdfa58f3d6944"
+    },
+    {
+      "path": "docs/CONTRIBUTING-fil.md",
+      "bytes": 17142,
+      "git_blob_sha": "36a211c5201a477b4b4c60f3df7648e82357035e"
+    },
+    {
+      "path": "docs/CONTRIBUTING-fr.md",
+      "bytes": 16913,
+      "git_blob_sha": "840d8e6ad426f046ffdf75a541aded7df3d0f5c9"
+    },
+    {
+      "path": "docs/CONTRIBUTING-hi.md",
+      "bytes": 27668,
+      "git_blob_sha": "81566420054ad2baf9b2fc71adbc1b30d26ff4a9"
+    },
+    {
+      "path": "docs/CONTRIBUTING-id.md",
+      "bytes": 18769,
+      "git_blob_sha": "c0b3e8e0c37a3e6af34ec176c1f48779eaa9b720"
+    },
+    {
+      "path": "docs/CONTRIBUTING-it.md",
+      "bytes": 16697,
+      "git_blob_sha": "87d54b081c28508755ad874245708f0eabe39f94"
+    },
+    {
+      "path": "docs/CONTRIBUTING-ja.md",
+      "bytes": 19676,
+      "git_blob_sha": "9dc623521d5d1b464562b892212fa3fe1f084cb1"
+    },
+    {
+      "path": "docs/CONTRIBUTING-kn.md",
+      "bytes": 33440,
+      "git_blob_sha": "67540253863467602550c3300a679fe5501eabe7"
+    },
+    {
+      "path": "docs/CONTRIBUTING-ko.md",
+      "bytes": 16604,
+      "git_blob_sha": "58056d0c1e8a6e3da2c3c9ec3b5dc913756c8d4c"
+    },
+    {
+      "path": "docs/CONTRIBUTING-ml.md",
+      "bytes": 49984,
+      "git_blob_sha": "cb76fa0de05096fe8e7219de81df7d2d2e2f700a"
+    },
+    {
+      "path": "docs/CONTRIBUTING-np.md",
+      "bytes": 36818,
+      "git_blob_sha": "dfe5a7ef3874ba4b60c1a8f4c21cdbc4f23c188e"
+    },
+    {
+      "path": "docs/CONTRIBUTING-pt_BR.md",
+      "bytes": 15920,
+      "git_blob_sha": "911833bef7c2d77d88431003896ee6128b750f38"
+    },
+    {
+      "path": "docs/CONTRIBUTING-ru.md",
+      "bytes": 26113,
+      "git_blob_sha": "ab8abfd6fd0c0a00da29393dac52e17ed6904a70"
+    },
+    {
+      "path": "docs/CONTRIBUTING-sv.md",
+      "bytes": 15432,
+      "git_blob_sha": "487fe64bfa8cfd79b54ceda952a76305cf49ccc0"
+    },
+    {
+      "path": "docs/CONTRIBUTING-ta.md",
+      "bytes": 48499,
+      "git_blob_sha": "2ef42066c5d142c8bfea452a2066b73b7eed18d9"
+    },
+    {
+      "path": "docs/CONTRIBUTING-te.md",
+      "bytes": 33913,
+      "git_blob_sha": "3dcc91e16636a80840d198490cd5cada645d0fb0"
+    },
+    {
+      "path": "docs/CONTRIBUTING-vi.md",
+      "bytes": 21064,
+      "git_blob_sha": "d9bf029606245544e1c1c32bd236f6dd81931c63"
+    },
+    {
+      "path": "docs/CONTRIBUTING-zh.md",
+      "bytes": 16274,
+      "git_blob_sha": "a265754219e63a7606c6889aa9ab5eef3254514e"
+    },
+    {
+      "path": "docs/CONTRIBUTING-zh_TW.md",
+      "bytes": 15516,
+      "git_blob_sha": "b133063a159133f5497bdba928229cae8b57efc6"
+    },
+    {
+      "path": "docs/CONTRIBUTING.md",
+      "bytes": 18409,
+      "git_blob_sha": "40adee23080afc95ecc2e171a1a57b03f884ae13"
+    },
+    {
+      "path": "docs/HOWTO-ar.md",
+      "bytes": 4104,
+      "git_blob_sha": "c498255a9a30ba1ec6779ed802224c17cc358387"
+    },
+    {
+      "path": "docs/HOWTO-bn.md",
+      "bytes": 5076,
+      "git_blob_sha": "d96deed5717b36cffe8c9d09aef6b3e26d55860c"
+    },
+    {
+      "path": "docs/HOWTO-bs.md",
+      "bytes": 2874,
+      "git_blob_sha": "ec91ceca2b1613af12e1205cc6bd45c960bf0108"
+    },
+    {
+      "path": "docs/HOWTO-de.md",
+      "bytes": 2986,
+      "git_blob_sha": "2aeb8d6ab3decb125376772573e8affe8074789e"
+    },
+    {
+      "path": "docs/HOWTO-el.md",
+      "bytes": 3813,
+      "git_blob_sha": "8a9cc6cfa775d902c8b1264a8b54ed598d6217b4"
+    },
+    {
+      "path": "docs/HOWTO-es.md",
+      "bytes": 3341,
+      "git_blob_sha": "d7309a66463ac6092ffbb34d0dd3be2738725fe9"
+    },
+    {
+      "path": "docs/HOWTO-fa_IR.md",
+      "bytes": 3604,
+      "git_blob_sha": "4a382fc2a246a2d8d9ec87dd8430cff8214e8ef4"
+    },
+    {
+      "path": "docs/HOWTO-fil.md",
+      "bytes": 2850,
+      "git_blob_sha": "472d91e7c13442bb49f7e27409a3def2675fd890"
+    },
+    {
+      "path": "docs/HOWTO-fr.md",
+      "bytes": 2928,
+      "git_blob_sha": "76f89fa8714cb05d4878453f232d6e66d7fc5325"
+    },
+    {
+      "path": "docs/HOWTO-he.md",
+      "bytes": 3401,
+      "git_blob_sha": "b70a1170cc80d2f44f2655f89df64a7edcefc379"
+    },
+    {
+      "path": "docs/HOWTO-hi.md",
+      "bytes": 4933,
+      "git_blob_sha": "99e4418fd51dfbecb61927abf57ed3d33b468045"
+    },
+    {
+      "path": "docs/HOWTO-id.md",
+      "bytes": 3233,
+      "git_blob_sha": "1f4e0d7651e7daef54a97548fa207e454ea1e1bd"
+    },
+    {
+      "path": "docs/HOWTO-it.md",
+      "bytes": 2939,
+      "git_blob_sha": "10a7e16419c4513c8776386e96cb8284ad825662"
+    },
+    {
+      "path": "docs/HOWTO-ja.md",
+      "bytes": 3216,
+      "git_blob_sha": "d4280c53bd579547ad6815a4bab0763914f5b9d7"
+    },
+    {
+      "path": "docs/HOWTO-km.md",
+      "bytes": 3701,
+      "git_blob_sha": "d4367b1e05b470e56a79cffbf498f2e1e3007748"
+    },
+    {
+      "path": "docs/HOWTO-kn.md",
+      "bytes": 5663,
+      "git_blob_sha": "64cb412ba578792480198eec0aba70254dc23cb0"
+    },
+    {
+      "path": "docs/HOWTO-ko.md",
+      "bytes": 2952,
+      "git_blob_sha": "ed9fc443248b84583d7505131722018cd5c99b0a"
+    },
+    {
+      "path": "docs/HOWTO-ml.md",
+      "bytes": 5458,
+      "git_blob_sha": "1785ed94918fc7a70a165d920e353c24ae8c749f"
+    },
+    {
+      "path": "docs/HOWTO-nl.md",
+      "bytes": 2936,
+      "git_blob_sha": "f79e03304fa3c6e4f635d9ec3ae80eab6484e2cb"
+    },
+    {
+      "path": "docs/HOWTO-no.md",
+      "bytes": 2772,
+      "git_blob_sha": "9573f5f132d833a9945c7a740609d5936309e7e8"
+    },
+    {
+      "path": "docs/HOWTO-np.md",
+      "bytes": 4974,
+      "git_blob_sha": "eeddb5e6ea3876b7a7ab32cef2a8baec91054795"
+    },
+    {
+      "path": "docs/HOWTO-pl.md",
+      "bytes": 3050,
+      "git_blob_sha": "69c313bf45afab1aee59cf4e5f28be4f5dd20d2f"
+    },
+    {
+      "path": "docs/HOWTO-pt_BR.md",
+      "bytes": 2903,
+      "git_blob_sha": "6e71b03014b1f3907f49bc9f74dd721f77ae20ec"
+    },
+    {
+      "path": "docs/HOWTO-pt_PT.md",
+      "bytes": 2842,
+      "git_blob_sha": "4a739490b470254ac0b82cdc0d08727f5dfc5601"
+    },
+    {
+      "path": "docs/HOWTO-ru.md",
+      "bytes": 4300,
+      "git_blob_sha": "5cb1b80674d4ae7d7e03ad018cb9fa9904130827"
+    },
+    {
+      "path": "docs/HOWTO-sl.md",
+      "bytes": 2990,
+      "git_blob_sha": "ec1228a849b7e89eef0993c1a0af45f8d63c81a7"
+    },
+    {
+      "path": "docs/HOWTO-sv.md",
+      "bytes": 3280,
+      "git_blob_sha": "18848bdf7ce824ffef72b0f93467f90a9d4e6cfb"
+    },
+    {
+      "path": "docs/HOWTO-ta.md",
+      "bytes": 5258,
+      "git_blob_sha": "4af4de1af72449a7a8632a5cf7195c252c2a5899"
+    },
+    {
+      "path": "docs/HOWTO-te.md",
+      "bytes": 4945,
+      "git_blob_sha": "5fff67ebe7ed5b6d26ab6012561a42c3b00c3071"
+    },
+    {
+      "path": "docs/HOWTO-th.md",
+      "bytes": 4419,
+      "git_blob_sha": "b1e1bca73c3af1dccfa99883c9733560d4deb3ea"
+    },
+    {
+      "path": "docs/HOWTO-tr.md",
+      "bytes": 3092,
+      "git_blob_sha": "72e9f35f95c83e13d9a0522be9e023f64ab8fabb"
+    },
+    {
+      "path": "docs/HOWTO-uk.md",
+      "bytes": 3657,
+      "git_blob_sha": "1d725675e52401011d15104a65ba523f60927b24"
+    },
+    {
+      "path": "docs/HOWTO-vi.md",
+      "bytes": 3394,
+      "git_blob_sha": "40c20ea716e52364e6f0208824a01855724c972c"
+    },
+    {
+      "path": "docs/HOWTO-zh.md",
+      "bytes": 2837,
+      "git_blob_sha": "b7230151ce6b387336a74037afbc13b541c5c96b"
+    },
+    {
+      "path": "docs/HOWTO-zh_TW.md",
+      "bytes": 2785,
+      "git_blob_sha": "5919949edc704496a6b41aa1c8c887e419e1bc35"
+    },
+    {
+      "path": "docs/HOWTO.md",
+      "bytes": 2762,
+      "git_blob_sha": "a54b21c78c2ffd304452d1dacc7f9ebe164be402"
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 5344,
+      "git_blob_sha": "34c74100cd691ade6b68a1b978f178fc9226f7a4"
+    },
+    {
+      "path": "favicon.ico",
+      "bytes": 15406,
+      "git_blob_sha": "6097b20682afbdbb75d929aa54c75eb06309192e"
+    },
+    {
+      "path": "more/free-programming-cheatsheets.md",
+      "bytes": 41117,
+      "git_blob_sha": "e69c3a39b3a0310b9d9ad012fbcfe1dcbf90473d"
+    },
+    {
+      "path": "more/free-programming-interactive-tutorials-de.md",
+      "bytes": 197,
+      "git_blob_sha": "17a8ff2701b5be1b453249f82237e91239c4542c"
+    },
+    {
+      "path": "more/free-programming-interactive-tutorials-en.md",
+      "bytes": 21414,
+      "git_blob_sha": "d1a2ac3829dbb93919342aec11ed56f38dad5dca"
+    },
+    {
+      "path": "more/free-programming-interactive-tutorials-ja.md",
+      "bytes": 1094,
+      "git_blob_sha": "3b11ad408aad2e3be6d520a6414851fa7e61978f"
+    },
+    {
+      "path": "more/free-programming-interactive-tutorials-ru.md",
+      "bytes": 1555,
+      "git_blob_sha": "621962a401aa676092035a8dea2fb1ea6eb40182"
+    },
+    {
+      "path": "more/free-programming-interactive-tutorials-zh.md",
+      "bytes": 251,
+      "git_blob_sha": "2b069cd493d58b877c710395d67b8c8460310839"
+    },
+    {
+      "path": "more/free-programming-playgrounds-de.md",
+      "bytes": 117,
+      "git_blob_sha": "a7975461d7467461bbee8982a577e7236adf3e41"
+    },
+    {
+      "path": "more/free-programming-playgrounds-ru.md",
+      "bytes": 188,
+      "git_blob_sha": "05503fc4e200a25f998925085ca6123dd0680458"
+    },
+    {
+      "path": "more/free-programming-playgrounds-zh.md",
+      "bytes": 197,
+      "git_blob_sha": "6b90e056b4bcd22f2e882db19284b071e522fddb"
+    },
+    {
+      "path": "more/free-programming-playgrounds.md",
+      "bytes": 13366,
+      "git_blob_sha": "d3936e13bb76ef899777b57f898613ed803bde37"
+    },
+    {
+      "path": "more/problem-sets-competitive-programming.md",
+      "bytes": 8603,
+      "git_blob_sha": "348897e1fbf3dac3a5e345c7b5e6c78a13cf5e41"
+    },
+    {
+      "path": "scripts/rtl_ltr_linter.py",
+      "bytes": 27037,
+      "git_blob_sha": "8c990c9717467094dbb6830021dd45e9be18efdc"
+    },
+    {
+      "path": "scripts/rtl_ltr_linter_config.yml",
+      "bytes": 2014,
+      "git_blob_sha": "1c926c9ae8690fd8da0ffd299a896b9743f188a7"
+    }
+  ]
+}
